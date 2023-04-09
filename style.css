@@ -30,12 +30,18 @@ body {
   background-color: var(--light-gray);
 }
 
+@media (min-width: 600px) {
+  body {
+    padding: 135px 0;
+  }
+}
 .qr__code {
   max-width: 320px;
   background-color: var(--white);
   text-align: center;
   padding-top: 15px;
   border-radius: 15px;
+  box-shadow: 0 5px 10px hsl(212, 45%, 89%);
 }
 .qr__code img {
   width: 288px;
