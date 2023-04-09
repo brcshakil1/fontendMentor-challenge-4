@@ -21,7 +21,7 @@
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   font-family: var(--ff-default);
   font-size: var(--fs-default);
   font-weight: 400;
@@ -30,11 +30,6 @@ body {
   background-color: var(--light-gray);
 }
 
-@media (min-width: 600px) {
-  body {
-    padding: 135px 0;
-  }
-}
 .qr__code {
   max-width: 320px;
   background-color: var(--white);
