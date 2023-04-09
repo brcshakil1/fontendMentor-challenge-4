@@ -41,7 +41,7 @@ body {
   text-align: center;
   padding-top: 15px;
   border-radius: 15px;
-  box-shadow: 0 5px 10px hsl(212, 45%, 89%);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
 }
 .qr__code img {
   width: 288px;
